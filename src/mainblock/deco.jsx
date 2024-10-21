@@ -95,7 +95,7 @@ const Style={
         border : '1px solid #E4E8EE',
         borderRadius : '8px',
         marginTop : '20px',
-        marginLeft : '72.5%'
+        marginLeft : '71.5%'
         
     },
     
@@ -125,6 +125,7 @@ const Style={
         backgroundColor : '#F5F7FA',
         marginTop: '3%',
         borderRadius : '6px',
+        marginLeft : '10px'
         
     },
     
@@ -197,7 +198,7 @@ const Style={
     {
         
         border : '0.5px solid #E4E8EE',
-        marginTop : '90px'
+        marginTop : '120px'
         
     },
     
@@ -214,7 +215,7 @@ const Style={
         
         fontWeight : '1000',
         padding:'15px',
-        marginLeft : '130px'
+        marginLeft : '120px'
         
     },
     
