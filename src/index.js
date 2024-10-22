@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
+import TopBar from './Topbar/Topbar.jsx';
+import reportWebVitals from './reportWebVitals';
 import Blocks from './mainblock/block';
 import { Box, Grid } from '@mui/material';
 
@@ -11,6 +13,7 @@ import { Box, Grid } from '@mui/material';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <TopBar/>
     {/* <Box sx={{...back}}> */}
     <Grid container>
     <Grid item lg={12}>
