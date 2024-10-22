@@ -1,17 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
 import reportWebVitals from './reportWebVitals';
 import TopBar from './Topbar/Topbar.jsx';
+import reportWebVitals from './reportWebVitals';
+import Blocks from './mainblock/block';
+import { Box, Grid } from '@mui/material';
+
+// const back={
+//   backgroundColor:'#F5F7FA',
+// }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <TopBar/>
+    {/* <Box sx={{...back}}> */}
+    <Grid container>
+    <Grid item lg={12}>
+      <Blocks/>
+    </Grid>
+    </Grid>
+    {/* </Box> */}
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+  
 reportWebVitals();
